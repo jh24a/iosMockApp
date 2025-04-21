@@ -1,0 +1,23 @@
+# If you add a pattern to .gitignore that matches files that are already tracked by Git, those files will continue to be tracked. You need to remove them from the Git cache using git rm --cached <file> before .gitignore will take effect.
+
+# Xcode
+build/
+*.build/
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+.DS_Store
+*.swp
+*.lock
+.swiftpm/xcode/
+
+# CocoaPods
+Pods/
+!Pods/.gitignore # Except for the Pods/.gitignore itself
+
+# Carthage
+Carthage/Build/
