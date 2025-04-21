@@ -3,4 +3,4 @@
 #TODO:
     - implement friends page\
     - comment and likes functionality\
-    - ..more things\
+    - ..more things
