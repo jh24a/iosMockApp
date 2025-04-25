@@ -109,9 +109,13 @@ struct ContentView: View {
 // ############ DUMMY VARIABLES #############
 var dummyuser1: User = User(name: "user1")
 var dummyuser2: User = User(name: "user2")
+var dummyuser3: User = User(name: "user3")
+var dummyuser4: User = User(name: "user4")
 
-var dummyExchange: LanaExchange = LanaExchange(user: dummyuser1, recipient: dummyuser2, amount:"23.3", message:"woah dud, far outtt", isPayment: true)
-var dummyExchange2: LanaExchange = LanaExchange(user: dummyuser2, recipient: dummyuser1, amount:"23.3", message:"that is so crazy", isPayment: false)
+var dummyExchange: LanaExchange = LanaExchange(user: dummyuser1, recipient: dummyuser2, amount:"23.3", message:"very cool", isPayment: true)
+var dummyExchange2: LanaExchange = LanaExchange(user: dummyuser2, recipient: dummyuser1, amount:"21.3", message:"you owe me", isPayment: false)
+var dummyExchange3: LanaExchange = LanaExchange(user: dummyuser3, recipient: dummyuser4, amount: "22.4", message: "cant believe it", isPayment: true)
+var dummyExchange4: LanaExchange = LanaExchange(user: dummyuser4, recipient: dummyuser3, amount: "22.4", message: "debt", isPayment: false)
 // ########### DUMMY VARIABLES ##############
 
 
